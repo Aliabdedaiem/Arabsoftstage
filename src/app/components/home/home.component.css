@@ -1,0 +1,41 @@
+.container {
+    margin-top: 250px;
+        display: flex;
+    width: 100%;
+    height: 80vh;
+ 
+}
+
+.photo, .text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    margin: 50px;
+    display: flex;
+    flex-direction: column; /* Align elements in a column */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align:start;
+    padding: 20px;
+}
+
+h1 {
+    color: #1395cd;;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+}
+

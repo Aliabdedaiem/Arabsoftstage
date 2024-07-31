@@ -1,0 +1,17 @@
+:host {
+    display: block;
+    width: 100%;
+  }
+  
+  .navbar {
+    position: fixed;
+    right:0;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it is above other elements */
+    color: white;
+    padding: 10px;
+  }
+  .content {
+    padding-top: 60px; /* Adjust according to the height of your navbar */
+  }
